@@ -1,0 +1,60 @@
+
+
+.my-name{
+    font-family: 'Lucida Sans';
+    font-size: 40px;
+    color: antiquewhite;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+    }
+    #objective{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        color:rgb(236, 227, 227);
+        width: 1200px;
+        text-align: center;
+        margin: auto;
+    }
+    #main-body{
+ 
+        
+        margin: auto;
+        max-width: 600px;
+    }
+   
+    nav{
+         
+            width: auto;
+            max-width: 1000px;
+            background-color: rgb(160, 133, 129);
+            margin: 0 auto;
+            top: 0;
+            right: 0;
+            bottom: auto;
+            left: 0;
+            font-size: 30px;
+            text-align: center;
+        }
+
+    
+
+    nav ul li { 
+          display: inline-block;
+          
+}
+
+nav ul li a {
+    text-decoration: none;/*Disable the underline */
+    display: inline-block;
+    padding: 16px 32px;
+}
+body{
+background-image: url(../img/wood.webp);
+background-size: cover;/*cover the whole element*/
+background-repeat:no-repeat;
+background-position: center;/* can be co-ordinates like : 50px 75px*/
+background-attachment:fixed;
+}
