@@ -2,19 +2,32 @@
 
 .my-name{
     font-family: 'Lucida Sans';
-    font-size: 40px;
+    font-size: 30px;
     color: antiquewhite;
-    width: 600px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 200px;
     text-align: center;
     }
+    img{ 
+        
+        
+        border-radius: 250px;
+        
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+        height: 250px;
+      }
     #objective{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 30px;
-        color:rgb(236, 227, 227);
-        width: 1200px;
+        font-size: 25px;
+        color:rgb(236, 232, 225);
+        width: 1000px;
         text-align: center;
         margin: auto;
     }
@@ -22,21 +35,29 @@
  
         
         margin: auto;
-        max-width: 600px;
+        max-width: 500px;
+        font-size: 30px;
+        color: rgb(240, 240, 247);
+        margin-bottom: 150px;
+        margin-top: 150px;
+
+
     }
    
     nav{
          
             width: auto;
-            max-width: 1000px;
+            max-width: 800px;
             background-color: rgb(160, 133, 129);
             margin: 0 auto;
             top: 0;
             right: 0;
             bottom: auto;
             left: 0;
-            font-size: 30px;
+            font-size: 25px;
             text-align: center;
+            position: fixed;
+            
         }
 
     
@@ -49,7 +70,11 @@
 nav ul li a {
     text-decoration: none;/*Disable the underline */
     display: inline-block;
-    padding: 16px 32px;
+    padding: 10px 16px;
+}
+nav ul li a:hover,nav ul li a:focus,nav ul li a:active{
+    background-color: rgb(50,50,50);
+    color: #fff;
 }
 body{
 background-image: url(../img/wood.webp);
@@ -58,3 +83,41 @@ background-repeat:no-repeat;
 background-position: center;/* can be co-ordinates like : 50px 75px*/
 background-attachment:fixed;
 }
+footer{
+   
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+    color: rgb(14, 13, 13);
+    padding: 2px;
+    margin: auto;
+}   
+.ed{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+    color: rgb(23, 8, 88);
+    margin-top: 100px;
+    max-width: 1300px;
+    text-align: center;
+    
+
+}
+.ed2{
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font: 36px ;
+    color: rgb(248, 241, 239);
+    max-width: 1200px;
+    text-align: justify;
+    margin: auto;
+}
+#en{
+    border-radius: 250px;
+}
+#en {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+  }
